@@ -13,10 +13,7 @@ Servo gripperServo;  // grip
 
 #define DATALENGTH 6
 
-int pos1 = 0;    // variable to store the servo position
-int pos2 = 0;    // variable to store the servo position
-int pos3 = 0;    // variable to store the servo position
-int pos4 = 0;    // variable to store the servo position
+
 
 int rotationMax=180;
 int rotationMin=0;
@@ -29,7 +26,7 @@ int frontBackMax=160;
 int frontBackMin=40;
 
 int gripperMax=70;
-int gripperMin=20;
+int gripperMin=10;
 
 uint8_t rotationPercent=0;
 uint8_t upDownPercent=0;
